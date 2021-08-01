@@ -1,0 +1,131 @@
+:root {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 768px;
+    margin: auto;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+nav .menu__button {
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border: white solid 1px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav .menu__button:hover {
+    font-weight: bold;
+    background-color: #dddddd;
+    border: grey solid 1px;
+}
+
+main section {
+    text-align: center;
+    border: grey solid 1px;
+    padding: 50px;
+}
+
+main #profile {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.about__list {
+	padding: 0;
+}
+
+.about__list li {
+	list-style: none;
+}
+
+.about__link a {
+    text-decoration: none;
+    color: black;
+}
+
+.about__link a:hover {
+    text-decoration: underline;
+}
+
+.work {
+    text-align: left;
+}
+
+.post {
+    text-align: left;
+}
+
+.post pre {
+	white-space: pre-wrap;
+	font-family: 'Poppins', sans-serif;
+}
+
+.post a {
+    text-decoration: none;
+    color: black;
+}
+
+.post a:hover {
+    color: teal;
+}
+
+.post__date {
+    text-align: right;
+}
+
+.post__form__group {
+    margin: 10px 0;
+}
+
+.post__form__group input[type="text"] {
+    width: 100%;
+    height: 50px;
+    border: black solid 1px;
+    box-sizing: border-box;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.post__form__group textarea {
+    width: 100%;
+    resize: none;
+    border: black solid 1px;
+    box-sizing: border-box;
+    height: 200px;
+    padding: 10px;
+}
+
+.post__form__group input[type="submit"] {
+    width : 150px;
+    height: 50px;
+    border-radius: 0;
+    border: none;
+    box-sizing: border-box;
+    font-size: 25px;
+    margin: 0;
+}
+
+.post__form__group input[type="submit"]:hover {
+    width : 150px;
+    border: black solid 1px;
+    cursor: pointer;
+}
+
+footer {
+    height: 100px;
+    line-height: 100px;
+}
